@@ -1,7 +1,7 @@
 # SuperColorSensor
  New block for mindstorms ev3 wich give you ability get hsv or rgb code from standart color sensor.
 
-##Purpose
+## Purpose
 Allows to increase reading accuracy using a standard sensor.
 
 ## What blocks inside?
