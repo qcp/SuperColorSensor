@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorStrings>
+  <PolyGroups ModuleName="ColorSensorHSV">
+	<PolyGroup Name="ColorSensorHSV" DisplayName="Color Sensor HSV" DisplayNamePrefix="ColorSensorHSV">
+      <Parameter Name="Port" DisplayName="Port" >
+        <Description><![CDATA[<p>Context help for Port</p>]]></Description>
+      </Parameter>
+      <Parameter Name="Hue" DisplayName="Hue">
+        <Description><![CDATA[<p>Hue component of HSV color</p>]]></Description>
+      </Parameter>
+      <Parameter Name="Saturation" DisplayName="Saturation">
+        <Description><![CDATA[<p>Saturation component of HSV color</p>]]></Description>
+      </Parameter>
+      <Parameter Name="Value" DisplayName="Value">
+        <Description><![CDATA[<p>Value component of HSV color</p>]]></Description>
+      </Parameter>
+      <Parameter Name="SumRGB" DisplayName="Sum of RGB">
+        <Description><![CDATA[<p>R+G+B</p>]]></Description>
+      </Parameter>
+      <Block Mode="ReadHSV" DisplayName="Measure - HSV color">
+        <Description><![CDATA[<p>Measure HSV colors</p>]]></Description>
+      </Block>
+    </PolyGroup>
+  </PolyGroups>
+</EditorStrings>

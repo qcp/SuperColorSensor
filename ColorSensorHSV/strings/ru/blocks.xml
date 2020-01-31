@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorStrings>
+  <PolyGroups ModuleName="ColorSensorHSV">
+	<PolyGroup Name="ColorSensorHSV" DisplayName="Датчик цвета HSV" DisplayNamePrefix="ДатчикЦветаHSV">
+      <Parameter Name="Port" DisplayName="Порт" >
+        <Description><![CDATA[<p>Порт</p>]]></Description>
+      </Parameter>
+      <Parameter Name="Hue" DisplayName="Цветовой тон">
+        <Description><![CDATA[<p>Цветовой тон HSV модели(0-360)</p>]]></Description>
+      </Parameter>
+      <Parameter Name="Saturation" DisplayName="Насыщенность">
+        <Description><![CDATA[<p>Насыщенность HSV модели(0-100)</p>]]></Description>
+      </Parameter>
+      <Parameter Name="Value" DisplayName="Яркость">
+        <Description><![CDATA[<p>Яркость HSV модели(0-100)</p>]]></Description>
+      </Parameter>
+      <Parameter Name="SumRGB" DisplayName="Сумма RGB">
+        <Description><![CDATA[<p>R+G+B</p>]]></Description>
+      </Parameter>
+      <Block Mode="ReadHSV" DisplayName="Измерение - HSV цвет">
+        <Description><![CDATA[<p>Измеряет HSV цвета</p>]]></Description>
+      </Block>
+    </PolyGroup>
+  </PolyGroups>
+</EditorStrings>

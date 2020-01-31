@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorStrings>
+  <PolyGroups ModuleName="ColorSensorRGB">
+	<PolyGroup Name="ColorSensorRGB" DisplayName="Датчик цвета RGB" DisplayNamePrefix="ДатчикЦветаRGB">
+      <Parameter Name="Port" DisplayName="Порт" >
+        <Description><![CDATA[<p>Порт</p>]]></Description>
+      </Parameter>
+      <Parameter Name="Red" DisplayName="Красный">
+        <Description><![CDATA[<p>Красный компонент RGB модели</p>]]></Description>
+      </Parameter>
+      <Parameter Name="Green" DisplayName="Зелёный">
+        <Description><![CDATA[<p>Зелёный компонент RGB модели</p>]]></Description>
+      </Parameter>
+      <Parameter Name="Blue" DisplayName="Голубой">
+        <Description><![CDATA[<p>Голубой компонент RGB модели</p>]]></Description>
+      </Parameter>
+      <Block Mode="ReadRGB" DisplayName="Измерение - RGB цвет">
+        <Description><![CDATA[<p>Измеряет RGB цвета</p>]]></Description>
+      </Block>
+    </PolyGroup>
+  </PolyGroups>
+</EditorStrings>

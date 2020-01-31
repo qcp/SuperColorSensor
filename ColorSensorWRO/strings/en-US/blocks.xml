@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorStrings>
+  <PolyGroups ModuleName="ColorSensorWRO">
+	<PolyGroup Name="ColorSensorWRO" DisplayName="Color Sensor WRO" DisplayNamePrefix="ColorSensorWRO">
+      <Parameter Name="Port" DisplayName="Port" >
+        <Description><![CDATA[<p>Context help for Port</p>]]></Description>
+      </Parameter>
+      
+      <Parameter Name="Hue" DisplayName="Hue">
+        <Description><![CDATA[<p>Hue component of HSV color</p>]]></Description>
+      </Parameter>
+      <Parameter Name="Saturation" DisplayName="Saturation">
+        <Description><![CDATA[<p>Saturation component of HSV color</p>]]></Description>
+      </Parameter>
+      <Parameter Name="Value" DisplayName="Value">
+        <Description><![CDATA[<p>Value component of HSV color</p>]]></Description>
+      </Parameter>
+      <Block Mode="ReadHSV" DisplayName="Measure - HSV color">
+        <Description><![CDATA[<p>Measure HSV colors</p>]]></Description>
+      </Block>
+
+      <Parameter Name="Red" DisplayName="Red">
+        <Description><![CDATA[<p>Red component of RGB color</p>]]></Description>
+      </Parameter>
+      <Parameter Name="Green" DisplayName="Green">
+        <Description><![CDATA[<p>Green component of RGB color</p>]]></Description>
+      </Parameter>
+      <Parameter Name="Blue" DisplayName="Blue">
+        <Description><![CDATA[<p>Blue component of RGB color</p>]]></Description>
+      </Parameter>
+      <Block Mode="ReadRGB" DisplayName="Measure - RGB color">
+        <Description><![CDATA[<p>Measure RGB colors</p>]]></Description>
+      </Block>
+
+      <Parameter Name="SumRGB" DisplayName="Sum RGB">
+        <Description><![CDATA[<p>Sum components RGB color</p>]]></Description>
+      </Parameter>
+      <Block Mode="ReadWRO" DisplayName="Measure - H(HSV) и R+G+B">
+        <Description><![CDATA[<p>Measure H(HSV) and R+G+B</p>]]></Description>
+      </Block>
+
+    </PolyGroup>
+  </PolyGroups>
+</EditorStrings>

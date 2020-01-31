@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorStrings>
+  <PolyGroups ModuleName="ColorSensorRGB">
+	<PolyGroup Name="ColorSensorRGB" DisplayName="Color Sensor RGB" DisplayNamePrefix="ColorSensorRGB">
+      <Parameter Name="Port" DisplayName="Port" >
+        <Description><![CDATA[<p>Context help for Port</p>]]></Description>
+      </Parameter>
+      <Parameter Name="Red" DisplayName="Red">
+        <Description><![CDATA[<p>Red component of RGB color</p>]]></Description>
+      </Parameter>
+      <Parameter Name="Green" DisplayName="Green">
+        <Description><![CDATA[<p>Green component of RGB color</p>]]></Description>
+      </Parameter>
+      <Parameter Name="Blue" DisplayName="Blue">
+        <Description><![CDATA[<p>Blue component of RGB color</p>]]></Description>
+      </Parameter>
+      <Block Mode="ReadRGB" DisplayName="Measure - RGB color">
+        <Description><![CDATA[<p>Measure RGB colors</p>]]></Description>
+      </Block>
+    </PolyGroup>
+  </PolyGroups>
+</EditorStrings>
